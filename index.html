@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book my Turf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card img {
+            object-fit: cover;
+            height: 200px; /* Adjust this height as needed */
+        }
+
+        .card-body {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Book my Turf    </h1>
+        <p>Your one-stop solution for booking sports and games turfs</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Book my Turf</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- <section class="hero d-flex justify-content-center align-items-center text-center text-white" style="background: url('turf-hero.jpg') no-repeat center center/cover; height: 70vh;">
+        <div>
+            <h2>Play Like a Pro!</h2>
+            <p>Book the best turfs in your area with ease</p>
+            <a href="#booking" class="btn btn-success btn-lg">Book Now</a>
+        </div>
+    </section> -->
+
+    <!-- About Us Section -->
+    <!-- <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2>About TurfEase</h2>
+            <p>We provide an easy-to-use platform to book sports turfs for your favorite games. Whether it's football, cricket, or badminton, we have you covered!</p>
+        </div>
+    </section> -->
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Book a Turf</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="fb.jpg" class="card-img-top" alt="Turf 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Football Turf</h5>
+                            <p class="card-text">State-of-the-art football ground for professional and casual players.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cricket.jpg" class="card-img-top" alt="Turf 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cricket Turf</h5>
+                            <p class="card-text">Perfect pitch for your cricket matches and practice sessions.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="badminton.jpeg" class="card-img-top" alt="Turf 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Badminton Court</h5>
+                            <p class="card-text">Indoor badminton courts with top-notch facilities.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pc.jpg" class="card-img-top" alt="Turf 1">
+                        <div class="card-body">
+                            <h5 class="card-title">PC Turf</h5>
+                            <p class="card-text">Experience gaming with our high-performance PC setup, fast internet, and comfortable seating.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="ps.jpg" class="card-img-top" alt="Turf 2">
+                        <div class="card-body">
+                            <h5 class="card-title">PS Turf</h5>
+                            <p class="card-text">Experience immersive gaming with PlayStation, smooth performance, and comfort.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="xbox.jpg" class="card-img-top" alt="Turf 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Xbox Turf</h5>
+                            <p class="card-text">Play the latest Xbox games with fast performance and comfy seating.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 TurfEase. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
